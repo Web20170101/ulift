@@ -1,0 +1,10 @@
+/*首页*/
+.ind_1{
+    position: fixed;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 640px;
+    background: url(../images/ind_1.jpg) no-repeat center center;
+}
