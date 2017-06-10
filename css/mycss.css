@@ -8,3 +8,56 @@
     height: 640px;
     background: url(../images/ind_1.jpg) no-repeat center center;
 }
+
+.ind_navbar{
+    height:42px;
+    background: rgba(0,0,0,.2);
+    margin-top:42px;
+}
+.ind_logo{
+    width:251px;
+    height: 74px;
+    background: url("../images/logo_1.png") no-repeat center center;
+    float: left;
+    margin-top: -15px;
+}
+.ind_nav{
+    float: right;
+}
+.ind_nav li{
+    float: left;
+}
+.ind_nav li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 42px;
+    color: #fff;
+    font-size:16px ;
+}
+.ind_nav li a:hover{
+    background: rgba(0,0,0,.1);
+}
+.ind_nav li.current a{
+    background: rgba(0,0,0,.2);
+}
+.ind_user{
+    float: right;
+    margin-left: 30px;
+    color: #ffffff;
+    line-height: 42px;
+}
+.ind_user a{
+    color: #ffffff;
+}
+.ind_user a:hover{
+    color: #ffff99;
+}
+.icon_user{
+    width: 16px;
+    height: 16px;
+    background: url(../images/iconlist.png) no-repeat 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 6px;
+}
