@@ -6,10 +6,99 @@ body{
     color: #333;
     background: #fff;
 }
-.ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,button{
+ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,button{
     margin: 0;
     padding: 0;
 }
 ul,ol{
     list-style: none;
+}
+input,button{
+    /*font-family: "Microsoft YaHei";*/
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+a:hover{
+    color: #e4393c;
+    text-decoration: none;
+}
+.clearfloat:after{
+    content: "";
+    display: table;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfloat:before{
+    content: "";
+    display: none;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.container:before {
+    content: "";
+    display: table;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*footer*/
+.footer{
+    background: #333333;
+    padding: 25px 0 25px;
+    color: #999999;
+}
+.footer_left{
+    float: left;
+}
+.footer_left ul {
+    border-bottom: 1px dashed #666;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer_left ul li {
+    float: left;
+    margin-right: 16px;
+}
+.footer_left ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+.footer_left ul li a:hover{
+    color: #ff9900;
+}
+.footer_left p {
+    line-height: 20px;
+}
+.footer_right{
+    float: right;
+    margin-top: 20px;
+}
+.footer_right i {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url(../images/iconlist.png) no-repeat 0 -140px;
+    margin-right: 18px;
+    margin-top: 12px;
+}
+.footer_right span{
+    float: left;
+    color: #aaaaaa;
+    line-height: 30px;
+    font-size: 18px;
 }

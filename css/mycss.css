@@ -48,6 +48,7 @@
 }
 .ind_user a{
     color: #ffffff;
+    padding: 0 3px 0 3px;
 }
 .ind_user a:hover{
     color: #ffff99;
@@ -60,4 +61,147 @@
     vertical-align: middle;
     margin-top: -4px;
     margin-right: 6px;
+}
+.ind_1_title{
+    margin: 140px auto 0;
+    width: 570px;
+    height: 65px;
+    background: url("../images/text_01.png") no-repeat center center;
+}
+/*首页搜索*/
+.ind_search{
+    width: 760px;
+    margin: 50px auto 0;
+}
+.ind_search_tab li{
+    float: left;
+    color: #cccccc;
+    margin-right: 40px;
+    font-size: 14px;
+    height: 32px;
+    overflow: hidden;
+}
+.ind_search_tab li.current{
+    color: #ffffff;
+}
+.ind_search_tab li.current:after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    margin: 5px auto 0;
+    transform: rotate(45deg);
+    transform-origin: center 0 ;
+}
+.ind_search_form input{
+    border: 0;
+    height: 50px;
+    width: 640px;
+    border-radius:3px 0 0 3px;
+    font-size: 16px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.ind_search_form button{
+    border: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 0 3px 3px 0;
+    background: #00ae66;
+    color: #ffffff;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.ind_1_text{
+    margin-top: 180px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+.ind_2{
+    padding: 38px 0 54px 0;
+    margin-top: 640px;
+    background: #ffffff;
+}
+.ind_2 ul li{
+    float: left;
+    width: 333px;
+    box-sizing: border-box;
+    padding: 0 86px;
+    text-align: center;
+}
+.ind_2 ul li span{
+    display: block;
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ind_2 ul li:nth-child(1) span{
+    background-image:url("../images/icon_1.png");
+}
+.ind_2 ul li:nth-child(2) span{
+    background-image:url("../images/icon_2.png");
+}
+.ind_2 ul li:nth-child(3) span{
+    background-image:url("../images/icon_3.png");
+}
+.ind_2 ul li h2{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 16px;
+}
+.ind_2 ul li p{
+    line-height: 18px;
+    color: #999999;
+    margin-top: 2px;
+}
+
+.ind_3{
+    height: 500px;
+    background: #dfd8d2 url(../images/ind_2.jpg) no-repeat center center;
+}
+.ind_3_title{
+    width: 295px;
+    height: 55px;
+    background: url(../images/text_02.png) no-repeat 0 0 ;
+    margin-top: 93px;
+}
+.ind_3 p {
+    width: 466px;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.ind_3 dl{
+    margin-top: 40px;
+}
+.ind_3 dl dt{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(../images/iconlist.png) no-repeat 0 -30px;
+}
+.ind_3 dl dd{
+    float: left;
+    margin-left: 20px;
+}
+.ind_3 dl dd button{
+    display: block;
+    width: 136px;
+    height: 45px;
+    background: #00ae66;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.ind_3 dl dd button:hover{
+    background: #059559;
+    cursor: pointer;
 }
